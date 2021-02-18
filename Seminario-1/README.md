@@ -2,10 +2,10 @@
 
 #### Diagrama de Métodos DCU.
 
-    1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU 
-       y en qué fase del diseño se ubica.
+ 1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU 
+    y en qué fase del diseño se ubica.
        
-        * Tras una lectura exhaustiva del artículo, hemos encontrado los siguientes elementos de la métodología de Desarrollo Centrado en Usuario (***DCU***)
+* Tras una lectura exhaustiva del artículo, hemos encontrado los siguientes elementos de la métodología de Desarrollo Centrado en Usuario (***DCU***)
        
 ![Imagen-métodos](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/SEMINARIO1.jpg)
 
