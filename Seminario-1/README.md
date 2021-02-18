@@ -7,6 +7,6 @@
        
 ![SEMINARIO1][SEMINARIO1]
 
-[SEMINARIO1]: Seminario-1/images/SEMINARIO1.png "métodos"
+[SEMINARIO1]: Seminario-1/images/SEMINARIO1.jpg "métodos"
    
    
