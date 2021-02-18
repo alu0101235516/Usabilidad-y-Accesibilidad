@@ -2,4 +2,4 @@
 
 ![métodos][metodos]
 
-[metodos]: images/metodos.JPG "métodos"
+[metodos]: images/metodos.jpg "métodos"
