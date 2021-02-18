@@ -6,6 +6,6 @@
        y en qué fase del diseño se ubica.
        
 ![SEMINARIO1][SEMINARIO1]
-[SEMINARIO1]: images/SEMINARIO1.jpg "SEMINARIO1"
+[SEMINARIO1]: images/SEMINARIO1.png "SEMINARIO1"
    
    
