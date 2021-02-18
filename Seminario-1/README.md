@@ -6,5 +6,8 @@
        y en qué fase del diseño se ubica.
        
 ![Imagen-métodos](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/SEMINARIO1.jpg)
+
+    2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio 
+       de un estudiante del Grado en Ingeniería Informática de la ULL.
    
    
