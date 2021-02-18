@@ -9,7 +9,8 @@
 
 #### Realización de un prototipado.
 
-    2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio 
+      2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio 
        de un estudiante del Grado en Ingeniería Informática de la ULL.
    
-   
+    - Definir las tareas que se llevarán a cabo en la fase de investigación y diseño conceptual de la aplicación.
+    - Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.
