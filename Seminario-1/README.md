@@ -53,9 +53,9 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
 
      De acuerdo, hemos implementado la técnica "personas", mediante la cuál definimos los personajes usuarios de nuestra aplicación. Para ello, hemos utilizado el siguiente herramienta, que nos ha permitido definir de manera clara y concisa los usuarios de nuestra aplicación.
      
-     ![Alumno](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/images/Alumno.JPG)
+     ![Alumno](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/Alumno.JPG)
      
-     ![Alumna](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/images/Alumna.JPG)
+     ![Alumna](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/Alumna.JPG)
      
 * ***Especificación de requisitos***
 
