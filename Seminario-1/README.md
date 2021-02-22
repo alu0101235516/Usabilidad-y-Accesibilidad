@@ -53,12 +53,12 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
 
 Los requisitos que vamos a proponer a continuación han sido escogido tras haber realizado toda la fase de investigación, en la que hemos propuesto ideas, comparado con otras aplicaciones similares y hemos realizado una encuesta general y una entrevista personal en el que hemos preguntado sobre sus hábitos de estudios y en lo que priorizarían en una aplicación de estas características, sacando las siguientes conclusiones para nuestra aplicacion web:
 
-- Un panel semanal, donde se muestren todas las tareas que tienes que realizar durante ese periodo
-- Sea una aplicación sencilla de utilizar y accesible.
-- Que te envíe un correo como recordatorios de las tareas a realizar.
-- Que a partir del estudio realizado entre el tiempo que se le debe dedicar a cada asignatura y en función de las tareas a realizar y del tiempo de estudio programado por el usuario, que te cree un calendario a modo de sugerencia, informandote de lo que debes estudiar en función de lo comentado anteriormente.
-- Que las tareas que se vayan poniendo en el campus virtual se te adjunten de forma automática al calendario.
-- Que pueda tener permisos de control de sobre otras alicaciones pudientdo restringir el acceso durante el tiempo asignado de estudio
-- Que de forma anónima el profesorado pueda ver el tiempo de estudio que dedican los usuarios a las distintas practicas, tareas o al mismo examen final de su asignaturas para comprobar si el rendimiento general es el adecuado o hay una excesiva carga de trabajo.
+- Panel semanal, donde se muestren todas las tareas que tienes que realizar durante ese periodo.
+- Aplicación sencilla de utilizar y accesible. (Priorizar la facilidad de uso y la accesibilidad).
+- Envíe un correo como recordatorio de las tareas a realizar.
+- A partir del estudio realizado entre el tiempo que se le debe dedicar a cada asignatura y en función de las tareas a realizar y el tiempo de estudio programado por el usuario, que cree un calendario a modo de sugerencia, informando de lo que debe estudiar de acuerdo con lo comentado anteriormente.
+- Tareas que se vayan poniendo en el campus virtual se te adjunten de forma automática al calendario.
+- Pueda tener permisos de control sobre otras alicaciones, pudientdo restringir el acceso durante el tiempo asignado de estudio.
+- De forma anónima, el profesorado pueda ver el tiempo de estudio que dedican los usuarios a las distintas practicas, tareas o al mismo examen final de sus asignaturas, para comprobar si el rendimiento general es el adecuado o hay una excesiva carga de trabajo.
 
    **Adjuntamos el link de la encuesta realizada:** [Encuesta]( https://docs.google.com/forms/d/e/1FAIpQLSct8daJtukUFg54_HdevTjaOLfsINDNC-dNohSMvTSsd1gl1w/viewform?usp=sf_link)
