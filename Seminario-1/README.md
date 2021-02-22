@@ -39,3 +39,13 @@ Las tareas que llevaremos a cabo en la fase de investigación son las siguientes
      Analizamos distintas aplicaciones que tienen una dinámica y objetivos similares a nuestra proyecto de aplicación web, obteniendo así un listado de coincidencias semánticas, que serán los aspectos o funcionalidades que tienen en común las distintas apps.  
 
       - Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.
+
+     
+* ***Perfiles de usuario:***
+
+     Para nuestra aplicación, se pueden distinguir dos tipos de usuarios, por un lado tenemos al alumno/a, que va a hacer uso de la aplicación para poder llevar una gestión y optimización del tiempo, y por otro lado, tenemos al profesorado, que va a ser el encargado de publicar las tareas (con sus correspondientes pesos o importancia) y que podrá ver la evolución del alumnado, y el tiempo que le dedican a su asignatura comprobando si la dupla dedicación y resultados es favorable. 
+
+     Como se puede observar, en el contexto de uso de la aplicación a desarrollar, tenemos únicamente dos grupos de usuarios bien diferenciados, que son el alumnado y el profesorado, que usarán la aplicación según el rol que tengan. A través de una encuesta que hemos realizado obtuvimos las siguientes conclusiones sobre el tipo de usuarios que tienen intención de usar esta aplicación, por lo general nos encontramos ante un grupo en el que la mayoría son hombres jóvenes entre unos 18-21 años, que ya tienen experiencia en el grado de ingeniería informática al llevar ya algunos años cursando la carrera, en cuanto al tiempo de estudio podemos concluir que depende de cada individuo pues está muy variado aunque es cierto que cuando el periodo de exámenes se acerca suelen dedicar un gran porcentaje de su tiempo al estudio. También vemos que a casi la mitad de los usuarios les cuesta ponerse a estudiar en cambio a la totalidad de estos dicen que les es muy fácil distraerse mientras estudian, ya sea por el uso del móvil, a través de las redes sociales, o excusas que ellos mismos ponen para perderlo. A pesar de que un gran porcentaje no ha usado nunca una aplicación que les ayude a organizarse y optimice su tiempo, nos ha sorprendido el tan buen recibimiento que ha tenido la encuesta pues el 100% de los encuestados estarían dispuestos a probar la aplicación.
+     
+     Adjuntamos el link de la encuesta realizada:    https://docs.google.com/forms/d/e/1FAIpQLSct8daJtukUFg54_HdevTjaOLfsINDNC-dNohSMvTSsd1gl1w/viewform?usp=sf_link
+
