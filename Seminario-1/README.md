@@ -37,6 +37,8 @@ Las tareas que llevaremos a cabo en la fase de investigación son las siguientes
 * ***Benchmarking:***
  
      Analizamos distintas aplicaciones que tienen una dinámica y objetivos similares a nuestra proyecto de aplicación web, obteniendo así un listado de coincidencias semánticas, que serán los aspectos o funcionalidades que tienen en común las distintas apps.  
+     
+En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfiles de usuario, para desarrollar parte de nuestra aplicación según sus recomendaciones. Este apartado lo desarrollaremos en la siguiente pregunta una vez obtenidos los perfiles y las personas para nuestra app. 
 
       - Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.
 
