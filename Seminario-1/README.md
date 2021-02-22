@@ -49,6 +49,14 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
 
      Como se puede observar, en el contexto de uso de la aplicación a desarrollar, tenemos únicamente dos grupos de usuarios bien diferenciados, que son el alumnado y el profesorado, que usarán la aplicación según el rol que tengan. A través de una encuesta que hemos realizado obtuvimos las siguientes conclusiones sobre el tipo de usuarios que tienen intención de usar esta aplicación, por lo general nos encontramos ante un grupo en el que la mayoría son hombres jóvenes entre unos 18-21 años, que ya tienen experiencia en el grado de ingeniería informática al llevar ya algunos años cursando la carrera, en cuanto al tiempo de estudio podemos concluir que depende de cada individuo pues está muy variado aunque es cierto que cuando el periodo de exámenes se acerca suelen dedicar un gran porcentaje de su tiempo al estudio. También vemos que a casi la mitad de los usuarios les cuesta ponerse a estudiar en cambio a la totalidad de estos dicen que les es muy fácil distraerse mientras estudian, ya sea por el uso del móvil, a través de las redes sociales, o excusas que ellos mismos ponen para perderlo. A pesar de que un gran porcentaje no ha usado nunca una aplicación que les ayude a organizarse y optimice su tiempo, nos ha sorprendido el tan buen recibimiento que ha tenido la encuesta pues el 100% de los encuestados estarían dispuestos a probar la aplicación.
      
+* ***Personajes:***
+
+     De acuerdo, hemos implementado la técnica "personas", mediante la cuál definimos los personajes usuarios de nuestra aplicación. Para ello, hemos utilizado el siguiente herramienta, que nos ha permitido definir de manera clara y concisa los usuarios de nuestra aplicación.
+     
+     ![Alumno](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/images/Alumno.JPG)
+     
+     ![Alumna](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/images/Alumna.JPG)
+     
 * ***Especificación de requisitos***
 
 Los requisitos que vamos a proponer a continuación han sido escogido tras haber realizado toda la fase de investigación, en la que hemos propuesto ideas, comparado con otras aplicaciones similares y hemos realizado una encuesta general y una entrevista personal en el que hemos preguntado sobre sus hábitos de estudios y en lo que priorizaría en una aplicación de estas características, sacando las siguientes conclusiones para nuestra aplicación web:
