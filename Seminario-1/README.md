@@ -14,7 +14,7 @@ Tras una lectura exhaustiva del artículo, hemos encontrado los siguientes eleme
    **2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio 
        de un estudiante del Grado en Ingeniería Informática de la ULL.**
    
-* - Definir las tareas que se llevarán a cabo en la fase de investigación y diseño conceptual de la aplicación.
+   ***2.1 Definir las tareas que se llevarán a cabo en la fase de investigación y diseño conceptual de la aplicación.***
 
 Las tareas que llevaremos a cabo en la fase de investigación son las siguientes:
 
@@ -40,7 +40,7 @@ Las tareas que llevaremos a cabo en la fase de investigación son las siguientes
      
 En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfiles de usuario, para desarrollar parte de nuestra aplicación según sus recomendaciones. Este apartado lo desarrollaremos en la siguiente pregunta una vez obtenidos los perfiles y las personas para nuestra app. 
 
-*- Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.
+***2.2 Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.***
 
      
   * ***Perfiles de usuario:***
