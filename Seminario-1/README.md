@@ -1,6 +1,6 @@
 # Seminario 1: DCU.
 
-#### Diagrama de Métodos DCU.
+### Diagrama de Métodos DCU.
 
    **1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU 
        y en qué fase del diseño se ubica.**
@@ -9,7 +9,7 @@ Tras una lectura exhaustiva del artículo, hemos encontrado los siguientes eleme
        
 ![Imagen-métodos](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/SEMINARIO1.jpg)
 
-#### Realización de un prototipado.
+### Realización de un prototipado.
 
    **2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio 
        de un estudiante del Grado en Ingeniería Informática de la ULL.**
