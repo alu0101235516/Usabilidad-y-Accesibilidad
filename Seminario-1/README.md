@@ -53,9 +53,9 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
 
      De acuerdo a las entrevistas en profundidad, hemos aplicado la técnica "personas", mediante la cual, definimos los personajes usuarios de nuestra aplicación. Para ello, hemos utilizado la siguiente [herramienta](https://www.hubspot.com/make-my-persona), que nos ha permitido definir de manera clara y concisa los usuarios de nuestra aplicación.
      
-     ![Alumno](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/Alumno.JPG)
+     ![Alumno](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/estudiante1.JPG)
      
-     ![Alumna](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/Alumna.JPG)
+     ![Alumna](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/estudiante2.JPG)
      
 * ***Especificación de requisitos***
 
