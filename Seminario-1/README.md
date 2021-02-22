@@ -18,23 +18,23 @@
 
 Las tareas que llevaremos a cabo en la fase de investigación son las siguientes:
 
-** ***Observaciones:***
+  * ***Observaciones:***
 
      Realizaremos un análisis de cada una de las distintas asignaturas que oferta el grado de ingeniería de informática en la ULL, y estableceremos el tiempo de estudio estimado para cada una de estas, dividiéndolo entre el tiempo a dedicar en la elaboración de prácticas o tareas, en repasar para llevar la asignatura al día y lo que se debe dedicar a cada asignatura cuando se acercan los exámenes de convocatoria.
 
-** ***Brainstorming:***
+  * ***Brainstorming:***
 
      En primer lugar, se realizará una lluvia de ideas, donde el equipo de desarrollo no pondrá límite a su imaginación (dentro del ámbito de la propia aplicación) proponiendo distintas funcionalidades que pueda tener la misma. Además es interesante que a la hora de hacer la siguiente fase de investigación (entrevista en profundidad) realizar una lluvia de ideas con el grupo de personas a las que realizaremos la entrevista, para obtener ideas que probablemente a nosotros no se nos hayan ocurrido.
       
-** ***Entrevista en profundidad:***
+  * ***Entrevista en profundidad:***
 
      Realizaremos una entrevista cara a cara a un grupo de personas que podrán ser usuarios (alumnos del grado en Ingeniería Informática) de nuestra aplicación web. En esta entrevista, le comentaremos sobre nuestra aplicación, siendo el objetivo de la saber si sería una aplicación web de la que harían uso para tener como soporte a la hora de estudiar y preguntarles qué requisitos les gustaría que tuviera una aplicación de este tipo y comentarles nuestros propias ideas o requisitos (como equipo de desarrollo).
-
-** ***Encuesta online:***
+  
+  * ***Encuesta online:***
 
      Después de hacer la entrevista en profundidad a cada usuario, podrán realizar de manera anónima una encuesta con aspectos generales acerca del ámbito de estudio, preferencias acerca de las ideas que proponemos, y preguntas más específicas sobre qué les gustaría que tuviese una aplicación que les ayude a gestionar su estudio mejor, optimizando su tiempo de manera más favorable.
       
-** ***Benchmarking:***
+  * ***Benchmarking:***
  
      Analizamos distintas aplicaciones que tienen una dinámica y objetivos similares a nuestra proyecto de aplicación web, obteniendo así un listado de coincidencias semánticas, que serán los aspectos o funcionalidades que tienen en común las distintas apps.  
      
@@ -43,7 +43,7 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
 *- Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.
 
      
-** ***Perfiles de usuario:***
+  * ***Perfiles de usuario:***
 
      Para nuestra aplicación, se pueden distinguir dos tipos de usuarios, por un lado tenemos al alumno/a, que va a hacer uso de la aplicación para poder llevar una gestión y optimización del tiempo, y por otro lado, tenemos al profesorado, que va a ser el encargado de publicar las tareas (con sus correspondientes pesos o importancia) y que podrá ver la evolución del alumnado, y el tiempo que le dedican a su asignatura comprobando si la dupla dedicación y resultados es favorable. 
 
