@@ -5,7 +5,7 @@
    **1. Indica en el documento del ejemplo de aplicación del DCU, qué actividades se corresponden con el diagrama de Métodos DCU 
        y en qué fase del diseño se ubica.**
        
-Tras una lectura exhaustiva del artículo, hemos encontrado los siguientes elementos de la métodología de Desarrollo Centrado en Usuario (***DCU***):
+Tras una lectura exhaustiva del artículo, hemos encontrado los siguientes elementos de la metodología de Desarrollo Centrado en Usuario (***DCU***):
        
 ![Imagen-métodos](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/SEMINARIO1.jpg)
 
@@ -51,14 +51,14 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
      
 * ***Especificación de requisitos***
 
-Los requisitos que vamos a proponer a continuación han sido escogido tras haber realizado toda la fase de investigación, en la que hemos propuesto ideas, comparado con otras aplicaciones similares y hemos realizado una encuesta general y una entrevista personal en el que hemos preguntado sobre sus hábitos de estudios y en lo que priorizarían en una aplicación de estas características, sacando las siguientes conclusiones para nuestra aplicacion web:
+Los requisitos que vamos a proponer a continuación han sido escogido tras haber realizado toda la fase de investigación, en la que hemos propuesto ideas, comparado con otras aplicaciones similares y hemos realizado una encuesta general y una entrevista personal en el que hemos preguntado sobre sus hábitos de estudios y en lo que priorizaría en una aplicación de estas características, sacando las siguientes conclusiones para nuestra aplicación web:
 
-- Panel semanal, donde se muestren todas las tareas que tienes que realizar durante ese periodo.
+- Panel semanal, donde se muestran todas las tareas que tienes que realizar durante ese periodo.
 - Aplicación sencilla de utilizar y accesible. (Priorizar la facilidad de uso y la accesibilidad).
 - Envíe un correo como recordatorio de las tareas a realizar.
 - A partir del estudio realizado entre el tiempo que se le debe dedicar a cada asignatura y en función de las tareas a realizar y el tiempo de estudio programado por el usuario, que cree un calendario a modo de sugerencia, informando de lo que debe estudiar de acuerdo con lo comentado anteriormente.
-- Tareas que se vayan poniendo en el campus virtual se te adjunten de forma automática al calendario.
-- Pueda tener permisos de control sobre otras alicaciones, pudientdo restringir el acceso durante el tiempo asignado de estudio.
-- De forma anónima, el profesorado pueda ver el tiempo de estudio que dedican los usuarios a las distintas practicas, tareas o al mismo examen final de sus asignaturas, para comprobar si el rendimiento general es el adecuado o hay una excesiva carga de trabajo.
+- Tareas que se vayan poniendo en el campus virtual se te adjuntan de forma automática al calendario.
+- Pueda tener permisos de control sobre otras aplicaciones, pudiendo restringir el acceso durante el tiempo asignado de estudio.
+- De forma anónima, el profesorado pueda ver el tiempo de estudio que dedican los usuarios a las distintas prácticas, tareas o al mismo examen final de sus asignaturas, para comprobar si el rendimiento general es el adecuado o hay una excesiva carga de trabajo.
 
    **Adjuntamos el link de la encuesta realizada:** [Encuesta]( https://docs.google.com/forms/d/e/1FAIpQLSct8daJtukUFg54_HdevTjaOLfsINDNC-dNohSMvTSsd1gl1w/viewform?usp=sf_link)
