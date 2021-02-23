@@ -58,7 +58,8 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
      ![Alumna](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/estudiante2.JPG)
      
      ![Profesora](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/profesor1.PNG)
-     ![Profesor]()
+     
+     ![Profesor](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/profesor2.PNG)
      
 * ***Especificación de requisitos***
 
