@@ -57,6 +57,9 @@ En cuanto a la fase del diseño conceptual haremos uso de los personajes y perfi
      
      ![Alumna](https://github.com/alu0101235516/Usabilidad-y-Accesibilidad/blob/main/Seminario-1/images/estudiante2.JPG)
      
+     ![Profesora]()
+     ![Profesor]()
+     
 * ***Especificación de requisitos***
 
 Los requisitos que vamos a proponer a continuación han sido escogido tras haber realizado toda la fase de investigación, en la que hemos propuesto ideas, comparado con otras aplicaciones similares y hemos realizado una encuesta general y una entrevista personal en el que hemos preguntado sobre sus hábitos de estudios y en lo que priorizaría en una aplicación de estas características, sacando las siguientes conclusiones para nuestra aplicación web:
