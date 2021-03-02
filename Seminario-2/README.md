@@ -11,4 +11,4 @@
 * Como conclusión podemos decir que nuestra experiencia en esta tarea ha llegado a ser un poco estresante e incluso en algún momento desesperante al ser prácticamente imposible navegar por ellas, requiriendo una amplia experiencia en el uso de estas páginas web. También queremos añadir que bajo nuestro punto de vista queremos indicar que la web no está del todo adaptada para personas con alguna disfuncionalidad, quedando aún un gran margen de mejora en este sentido. 
 
 
-Video que realizamos usando ChromeVox: [LINK](https://drive.google.com/file/d/1BUULmyUnH9h_Boav_WNH7r4g2eKvzdsF/view?usp=sharing)
+Video que realizamos usando ChromeVox (compartido en Drive): [LINK](https://drive.google.com/file/d/1BUULmyUnH9h_Boav_WNH7r4g2eKvzdsF/view?usp=sharing)
