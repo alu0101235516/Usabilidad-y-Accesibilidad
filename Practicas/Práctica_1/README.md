@@ -41,9 +41,7 @@
 	
 * **¿Qué idioma acepta?**
 
-	* Acepta 3 idiomas, Español, Inglés y Alemán:
-	
-	![Idiomas Google Chrome][idiomas]
+	* En este caso, el navegador está configurado en español: es-ES,es;q=0.9
 	
 	
 * **Alguna línea de código JavaScript.**
@@ -96,7 +94,7 @@
 		
 * **¿Qué idioma acepta?**
 
-	* En este caso, el ordenador lo tengo configurado en ingles: en-US,en;q=0.5
+	* En este caso, el navegador está configurado en ingles: en-US,en;q=0.5
 
 * **Alguna línea de código JavaScript.**
 
