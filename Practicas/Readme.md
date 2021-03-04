@@ -1,1 +1,1 @@
-# Aquí se encontraran las practicas de cada miembro del grupo 12
+# Aquí se encontraran las practicas realizadas por los miembros del grupo 12
