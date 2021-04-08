@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+	<html>
+    	<head>
+			<title>Práctica 5- Usabilidad y Accesibilidad</title>
+			<meta charset="UTF-8">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script type="text/javascript" src="./js/practica5.js"></script>
+
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    	</head>
+		<body>
+      <h1>Practica: Introducción a JavaScript</h1>
+			<h6>2. Define una función en javascript en la que se inserte un texto en una tarjeta que el usuario introduce por el teclado.</h6>
+			<div class="row">
+				<form class="col">
+					<label for="texto_escrito">Introduce el texto</label>
+					<input placeholder="Texto a mostrar" id="texto_escrito" type="text" class="validate">
+				</form>
+			  </div>
+				Texto insertado: 
+			  <div class="row">
+				<div class="col m10">
+			  		<div class="black-text">
+							<span id="texto_copiado" class="title">Resultado</span>
+			  		</div>
+				  </div>
+				</div>
+			  </div>
+
+			  <h6>3. Define una función javascript que calcule la edad de los usuarios, y su sueldo. Debes considerar un json de ejmplo con los datos, en el que se registra para cada usuario su dni, año de nacimiento, fecha de ingreso en la empresa, plus de productividad en %, plus de antigüedad bruto (0,1% por cada tres años trabajado) y el sueldo base. (El json debe estar en el propio código, inicializando una variable, explica por qué se te exige este requisito).</h6>
+			  <div class="row">
+				<div class="col m10">
+			  		<div class="black-text">
+						<span id="edad" class="card-title">Resultado</span>
+						<div></div>
+						<span id="sueldo" class="card-title">Resultado</span>
+			  		</div>
+				  </div>
+				</div>
+			  </div>
+
+				<script>
+					var usuario = {
+						nombre: 'Alberto',
+						dni: '77777777A',
+						año_nacimiento: 2000,
+						año_ingreso: 2019,
+						plus_productividad: 8,
+						plus_antiguedad: 0.1,
+						salario_base: 1600,
+					}
+					$(document).ready(function getData() {
+							var age =  (new Date).getFullYear() - usuario.año_nacimiento;
+							$("#edad").text("Edad: " + age); 
+
+							var sueldo_final = ((usuario.plus_productividad * usuario.salario_base) / 100) + ((((new Date).getFullYear() - usuario.año_ingreso) / 3) * usuario.plus_antiguedad * usuario.salario_base) + usuario.salario_base;
+							$("#sueldo").text("Sueldo Total: " + sueldo_final );
+					}); 
+				</script>
+
+				<h6>4. Crear un script que muestre un informe de la cantidad de párrafos, enlaces y div en tu página de inicio.</h6>
+				<div class="row">
+					<div class="col m10">
+							<div class="black-text">
+							<span id="cant_parrafos" class="card-title">Resultado</span>
+							<div></div>
+							<span id="cant_enlaces" class="card-title">Resultado</span>
+							</div>
+							<div></div>
+							<span id="cant_div" class="card-title">Resultado</span>
+						</div>
+					</div>
+					</div>
+		</body>
+	</html>
