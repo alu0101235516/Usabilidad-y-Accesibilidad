@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> UyA - Uso de Ajax y Firebase </title>
+        <link rel = "stylesheet" href = "./css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="titulo">
+            <header><b> USO DE AJAX Y FIREBASE </b></header>
+        </div>
+
+        <main>
+            <div class="formulario">
+                <form id= "miFormulario">
+                    <p id = "Nombre"> Nombre: <input id = "nombre" type = "text" placeholder="Jorge"> </p>
+                    <p id = "Papellido"> Primer Apellido: <input id = "papellido" type = "text" placeholder="Martinez"> </p>
+                    <p id = "Parametro"> Parámetro: <input id = "parametro" type = "text" placeholder="7"> </p>
+                </form>
+            </div>
+            <button onclick="getInformacion()"> Enviar </button>
+            <a href="bbdd.html"> Probar la BBDD</a>
+            <div id="informacion"></div>
+        </main>
+    </body>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBlAS3wl0CMmvOBxdia5sKu3ISHHqh44jE",
+            authDomain: "practica6-539a1.firebaseapp.com",
+            projectId: "practica6-539a1",
+            storageBucket: "practica6-539a1.appspot.com",
+            messagingSenderId: "590140383811",
+            appId: "1:590140383811:web:36241e2c5f942f677b2af6"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src = "./js/index.js"></script>
+</html>
+
