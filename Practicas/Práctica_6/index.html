@@ -3,7 +3,9 @@
     <head>
         <title> UyA - Uso de Ajax y Firebase </title>
         <link rel = "stylesheet" href = "./css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
     </head>
 
     <body>
@@ -16,7 +18,7 @@
                 <form id= "miFormulario">
                     <p id = "Nombre"> Nombre: <input id = "nombre" type = "text" placeholder="Jorge"> </p>
                     <p id = "Papellido"> Primer Apellido: <input id = "papellido" type = "text" placeholder="Martinez"> </p>
-                    <p id = "Parametro"> Parámetro: <input id = "parametro" type = "text" placeholder="7"> </p>
+                    <p id = "Parametro"> Parámetro: <input id = "parametro" type = "text" placeholder="7" name="parametro"> </p>
                 </form>
             </div>
             <button onclick="getInformacion()"> Enviar </button>
@@ -24,6 +26,24 @@
             <div id="informacion"></div>
         </main>
     </body>
+
+    <script>
+        jQuery.validator.setDefaults({
+          debug: true,
+          success: "valid"
+        });
+        $( "#miFormulario" ).validate({
+          rules: {
+            parametro: {
+              number: true,
+            }
+          },
+        
+          messages: {
+            parametro: "El campo parametro tiene que ser un número."  
+          }
+        });
+    </script>
 
     <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
