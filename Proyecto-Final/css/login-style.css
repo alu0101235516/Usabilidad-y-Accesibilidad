@@ -1,0 +1,152 @@
+body {
+  background: rgb(255, 244, 243);
+  width: 90%;
+  height: 50em;
+  margin: auto;
+}
+
+.background {
+  width: 60%;
+  height: 40em;
+  margin: auto;
+  margin-top: 6.5%;
+  background: rgb(88, 59, 156);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.253);
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.title-page {
+  width: 100%;
+  height: 100%;
+  background: rgb(71, 46, 131);
+  border-radius: 20px;
+}
+
+.form-page {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.signup-signin {
+  width: 75%;
+  height: 80%;
+  background: rgb(255, 244, 243);
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.253);
+}
+
+
+.signup-text, .signup-text-name {
+  font-weight: bold;
+   width: 80%;
+   margin: 0 5.5% 20px ;
+   height: 35px;
+   padding: 6px 15px;
+   border: none;
+   border-radius: 10px;
+   background: rgb(236, 225, 225);
+   color: #748194;
+   font-size: 14px;
+}
+
+.signup-text:hover, .signup-text-name:hover {
+  background: rgb(226, 214, 214);
+}
+
+.signup-text-name {
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial Black;
+  color: rgb(71, 46, 131);
+}
+
+.title-princ {
+  text-align: center;
+  font-size: 37px;
+  font-family: Arial Black;
+  color: rgb(255, 244, 243);
+}
+
+#eslogan {
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial Black;
+  color: rgb(255, 244, 243);
+  margin: 20px;
+  font-style: italic;
+}
+
+.btn, .btn-1 {
+  font-weight: bold;
+  width: 50%;
+  margin: 25px 24% 20px ;
+  height: 35px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(88, 59, 156);
+  color: #ffffff;
+  font-size: 14px;
+  transition: 0.3s ease-in;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.253);
+}
+
+.btn-Login {
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: rgb(255, 244, 243);
+  border-radius: 5px;
+}
+
+.btn-Login:hover {
+  color: rgb(192, 192, 192);
+}
+
+.btn-1 {
+  margin-top: 5px;
+}
+
+.btn:hover {
+  width: 55%;
+  margin: 25px 22% 20px ;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  width: 55%;
+  margin: 5px 22% 20px ;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.footer {
+ margin-top: 10px;
+}
+
+.image {
+  margin-top: 300px;
+  text-shadow: 0 0 0 rgb(253, 224, 222);
+  color: transparent; 
+  transition: 0.1s ease-in;
+}
+
+.image:hover {
+  width: 52px;
+  height: 52px;
+  transition: 0.1s ease-out;
+  cursor: pointer;
+}
