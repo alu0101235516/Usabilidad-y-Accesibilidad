@@ -79,7 +79,7 @@ body {
     color: rgb(255, 244, 243);
   }
   
-  #eslogan {
+  #eslogan1, #eslogan2, #eslogan-text {
     text-align: center;
     font-size: 12px;
     font-family: Arial Black;
@@ -152,7 +152,7 @@ body {
   }
   
 
-  #errorCommand {
+  #errorCommand, #errorCommandPS, #errorCommandPE, #errorCommandPC {
     text-align: center;
     font-size: 11px;
     font-family: Arial Black;

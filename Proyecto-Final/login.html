@@ -7,35 +7,38 @@
       function Cambio1() {
         document.getElementById("signup").style.display = "none";
         document.getElementById("signin").style.display = "block";
+        document.getElementById("eslogan1").style.display = "block";
+        document.getElementById("eslogan2").style.display = "none";
       }
       function Cambio2() {
         document.getElementById("signup").style.display = "block";
         document.getElementById("signin").style.display = "none";
+        document.getElementById("eslogan1").style.display = "none";
+        document.getElementById("eslogan2").style.display = "block";
       }
       function RedirectGH() {
-  location.href = "https://github.com/alu0101235516/Usabilidad-y-Accesibilidad";
-}
+        location.href = "https://github.com/alu0101235516/Usabilidad-y-Accesibilidad";
+      }
     </script>
   </head>
 
   <body>
-
     <main>
-
       <div class="background">
         <div class="title-page">
           <h2 class="title-princ">ULLGANIZATE</h2>
-          <p id="eslogan"><b>Ullganizate</b> es una aplicación destinada a la organización y gestión de tu tiempo, aqui podrás acceder a tu calendario, ver tus últimas actividades o incluso añadir tareas. Descúbrelo!</p>
+          <p id="eslogan-text"><b>Ullganizate</b> es una aplicación destinada a la organización y gestión de tu tiempo, aqui podrás acceder a tu calendario, ver tus últimas actividades o incluso añadir tareas. Descúbrelo!</p>
           <center>
             <img class="image" src="./images/signo-de-github.png" width="50px" height="50px" onclick="RedirectGH()"/>
           </center>
           <footer class="footer">
-            <p id="eslogan"> ¿Ya estás registrado?  <button class="btn-Login" id="Login" onclick="Cambio1()">Log In</button></p>
+            <p id="eslogan1"> ¿No estás registrado?  <button class="btn-Login" id="Login" onclick="Cambio2()">Sign Up</button></p>
+            <p id="eslogan2" style="display: none;"> ¿Ya estás registrado?  <button class="btn-Login" id="Login" onclick="Cambio1()">Log In</button></p>
           </footer>
         </div>
 
         <div class="form-page">
-          <div class="signup-signin" style="display: block;" id="signup">
+          <div class="signup-signin" style="display: none;" id="signup">
             <form id="formularioSignUp">
               <h4 class="title" style="display: block;" id="signupTitle">SIGN UP</h4>
               <input name="username" type="text" placeholder="username*" class="signup-text-name" id="signupUsername"/>
@@ -43,26 +46,27 @@
               <input name="password" type="password" placeholder="password*" class="signup-text" id="signupPassword"/>
               <input name="password" type="password" placeholder="confirm password*" class="signup-text" id="signupPassword2"/>
 
+              <p id="errorCommandPS" style="display: none;">Las contraseñas no coinciden!</p>
+              <p id="errorCommandPC" style="display: none;">La contraseña tiene que tener mas de 6 caracteres!</p>
+              <p id="errorCommandPE" style="display: none;">El usuario o el correo ya están en uso!</p>
+
               <button class="btn" type="submit">Sign Up</button>
             </form>
           </div>
 
-          <div class="signup-signin" style="display: none;" id="signin">
+          <div class="signup-signin" style="display: block;" id="signin">
             <form id="formularioLogin">
-              <h4 class="title" style="display: block;" id="signinTitle">SIGN IN</h4>
-              <input name="username" type="text" placeholder="username*" class="signup-text-name" id="signinEmail"/>
+              <h4 class="title" style="display: block;" id="signinTitle">LOG IN</h4>
+              <input name="email" type="text" placeholder="email*" class="signup-text-name" id="signinEmail"/>
               <input name="password" type="password" placeholder="password*" class="signup-text" id="signinPassword"/>
               <div>
                 <p id="errorCommand" style="display: none;">La contraseña o el correo son incorrectos!</p>
               </div>
-              <button class="btn" type="submit">Sign In</button>
-              <button class="btn-1" id="Signin" onclick="Cambio2()">Sign Up</button>
+              <button class="btn" type="submit">Log In</button>
             </form>
-            
-        </div>
+          </div>
         </div>
       </div>
-
     </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -87,7 +91,6 @@
 			const auth = firebase.auth();
 		</script>
 
-		<script src="./js/main.js"></script>
-
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -10,26 +10,30 @@ signUpForm.addEventListener("submit", (e) => {
     const password = signUpForm["signupPassword"].value;
     const password2 = signUpForm["signupPassword2"].value;
 
-    if (password == password2){
-        auth
-        .createUserWithEmailAndPassword(usuario, password)
-        .then((userCredential) => {
+    if (password.length < 6) {
+        document.getElementById("errorCommandPC").style.display = "block";
+    } else {
+        document.getElementById("errorCommandPC").style.display = "none";
+        if (password == password2){
+            auth
+            .createUserWithEmailAndPassword(usuario, password)
+            .then((userCredential) => {
 
-            console.log("Registro correcto.")
-     
-            signUpForm.reset();
-      
-            $("#signup").modal("hide");
-        }).catch(error =>  {
-            alert("El usuario o la contraseña no son válidos.")
-        })
+                console.log("Registro correcto.")
+        
+                signUpForm.reset();
+        
+                $("#signup").modal("hide");
+            }).catch(error =>  {
+                //alert("El usuario o la contraseña no son válidos.")
+                document.getElementById("errorCommandPE").style.display = "block";
+            })
+        }
+        else{
+            //alert("Las contraseñas no coinciden.")
+            document.getElementById("errorCommandPS").style.display = "block";
+        }
     }
-    else{
-        alert("Las contraseñas no coinciden.")
-    }
-
-
-    
 })
 
 
@@ -55,7 +59,7 @@ logInForm.addEventListener("submit", (e) => {
             $("#signin").modal("hide");
         })
         .catch(error =>  {
-            document.getElementById("errorCommand").style.display = "block"
+            document.getElementById("errorCommand").style.display = "block";
             //alert("El usuario o la contraseña no son válidos. Introduzca unas credenciales válidas")
         })
             
