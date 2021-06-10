@@ -61,3 +61,7 @@ logInForm.addEventListener("submit", (e) => {
             
             
 })
+
+function mostrarOpciones() {
+    document.getElementById("lol").style.display = "block";
+}
