@@ -1,7 +1,5 @@
 // Registro
-
 const signUpForm = document.querySelector("#formularioSignUp");
-
 
 signUpForm.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -40,9 +38,7 @@ signUpForm.addEventListener("submit", (e) => {
 
 
 // Log in
-
 const logInForm = document.querySelector("#formularioLogin");
-
 
 logInForm.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -69,6 +65,32 @@ logInForm.addEventListener("submit", (e) => {
             
 })
 
+
 function mostrarOpciones() {
     document.getElementById("lol").style.display = "block";
+}
+
+
+// Función Insertar datos en bbdd 
+function insertar() {
+    const email = firebase.auth().currentUser.email.toString()
+    var usuario = []
+    for (var i = 0; i< email.length; i++){
+      if (email[i] != "@"){
+        if (email[i] != "." && email[i] != "_" && email[i] != "-"){
+          usuario.push(email[i])
+        }
+      }
+      else{
+        break
+      }
+    }
+    usuario = usuario.join("")
+    var myDatabase = firebase.database();
+    var referencia = myDatabase.ref(usuario);
+    referencia.set({
+      Nombre: document.getElementById("nombre-evento").value.toString(),
+      Tipo: document.getElementById("tipo-de-evento").value.toString(),
+      Fecha: document.getElementById("fecha").value.toString()
+    })
 }
