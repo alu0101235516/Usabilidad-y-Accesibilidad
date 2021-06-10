@@ -151,10 +151,16 @@ body {
     cursor: pointer;
   }
   
-
   #errorCommand {
     text-align: center;
     font-size: 11px;
     font-family: Arial Black;
     color: rgb(255, 0, 0);
+  }
+  
+  .submenu {
+    padding: 15px;
+    color: rgb(12, 2, 2);
+    font-family: 'Open sans';
+    list-style: none;
   }
