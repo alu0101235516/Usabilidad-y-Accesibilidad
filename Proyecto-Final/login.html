@@ -3,6 +3,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript">
       function Cambio1() {
         document.getElementById("signup").style.display = "none";
@@ -47,10 +48,12 @@
               <input name="password" type="password" placeholder="confirm password*" class="signup-text" id="signupPassword2"/>
 
               <p id="errorCommandPS" style="display: none;">Las contraseñas no coinciden!</p>
-              <p id="errorCommandPC" style="display: none;">La contraseña tiene que tener mas de 6 caracteres!</p>
+              <p id="errorCommandPC" style="display: none;">La contraseña tiene que tener más de 6 caracteres!</p>
               <p id="errorCommandPE" style="display: none;">El usuario o el correo ya están en uso!</p>
 
               <button class="btn" type="submit">Sign Up</button>
+
+              <p id="eslogan22"> ¿Ya estás registrado?  <button class="btn-Login" id="Login" onclick="Cambio1()">Log In</button></p>
             </form>
           </div>
 
@@ -63,6 +66,8 @@
                 <p id="errorCommand" style="display: none;">La contraseña o el correo son incorrectos!</p>
               </div>
               <button class="btn" type="submit">Log In</button>
+
+              <p id="eslogan11"> ¿No estás registrado?  <button class="btn-Login" id="Login" onclick="Cambio2()">Sign Up</button></p>
             </form>
           </div>
         </div>

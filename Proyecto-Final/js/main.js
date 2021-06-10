@@ -19,7 +19,9 @@ signUpForm.addEventListener("submit", (e) => {
             .createUserWithEmailAndPassword(usuario, password)
             .then((userCredential) => {
 
-                console.log("Registro correcto.")
+                document.getElementById("errorCommandPE").style.display = "none";
+                console.log("Registro correcto.");
+                location.href = "./index.html";
         
                 signUpForm.reset();
         
@@ -52,7 +54,8 @@ logInForm.addEventListener("submit", (e) => {
         .signInWithEmailAndPassword(usuario, password)
         .then((userCredential) => {
 
-            console.log("Log In correcto.")
+            console.log("Log In correcto.");
+            location.href = "./index.html";
     
             logInForm.reset();
     
