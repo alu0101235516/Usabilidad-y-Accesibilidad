@@ -19,7 +19,7 @@ signUpForm.addEventListener("submit", (e) => {
 
                 document.getElementById("errorCommandPE").style.display = "none";
                 console.log("Registro correcto.");
-                location.href = "./index.html";
+                location.href = "./principal.html";
         
                 signUpForm.reset();
         
@@ -49,7 +49,7 @@ logInForm.addEventListener("submit", (e) => {
         .then((userCredential) => {
 
             console.log("Log In correcto.");
-            location.href = "./index.html";
+            location.href = "./principal.html";
     
             logInForm.reset();
     
@@ -112,24 +112,82 @@ function setDatos() {
 
 
 // Función mostrar datos
+var datosEventos = new Array()
+
 function getDatos(){
+    document.getElementById("botonMostrar").style.display = "none";
     const email = firebase.auth().currentUser.email.toString()
     const usuario = obtenerUsuario(email)
     var informacion = $("#informacion")
-    informacion.append(
-        '<div>'
-        + '</div>'
-    )
     const dbRef = firebase.database().ref(usuario);
+
+
+    dbRef.once('value', (snapshot) => {
+        if(snapshot.val() == null) {
+            console.log("Referral Code does not exist.");
+            informacion.append(
+                '<div class="card purple darken-2">'
+                +   '<div class="card-content white-text">'
+                +       '<h5> No hay eventos que mostrar </h5>'           
+                +   '</div>'
+                +'</div>'
+            )
+        }
+    });
+
     dbRef.on('value', function(snapshot) {
+        var i = 0
+        var eventos = new Array()
         snapshot.forEach(function(childSnapshot) {
             if (childSnapshot.val().Nombre != undefined){
+
+                var evento = {
+                    Nombre: childSnapshot.val().Nombre,
+                    Tipo: childSnapshot.val().Tipo,
+                    Fecha: childSnapshot.val().Fecha
+                }
+
+                console.log(evento)
+
+                eventos.push(evento)
+
                 informacion.append(
-                    '<div>'
-                    +  `<p> <b> El nombre del evento es: </b> ${childSnapshot.val().Nombre} <b> El tipo del evento es: </b>  ${childSnapshot.val().Tipo} <b> La fecha del evento es: </b>  ${childSnapshot.val().Fecha}</p>`
-                    + '</div>'
+                    '<div class="card purple darken-2">'
+                    +           '<div class="card-content white-text">'
+                    +               `<span class="card-title"><b> ${childSnapshot.val().Nombre} </b></span>`
+                    +               `<p><b> ${childSnapshot.val().Tipo}</b> <br> <b> ${childSnapshot.val().Fecha}</b></p><br><br>`
+                    +               '<div>'
+                    +                   `<a class="grey lighten-5 btn-large purple-text text-darken-2" id="eliminarEvento${i}" onclick="removeDatos(${i})"> Eliminar evento </a>`
+                    +               '</div>'
+                    +           '</div>'
+                    +'</div>'
                 )
+
+                i += 1
             }
         });
+        
+        datosEventos = eventos
     });
+}
+
+
+function removeDatos(elemento){
+
+    const email = firebase.auth().currentUser.email.toString()
+    const usuario = obtenerUsuario(email)
+    const myDatabase = firebase.database();
+
+    for(var i = 0; i<datosEventos.length; i++){
+
+        if (i == elemento){
+            console.log(datosEventos[i].Nombre)
+            const referencia = myDatabase.ref(usuario+"/"+datosEventos[i].Nombre);
+            referencia.remove()
+            break
+        }
+    }
+
+    location.reload();
+
 }

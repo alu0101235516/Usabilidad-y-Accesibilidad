@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Firebase Auth Example</title>
+	</head>
+
+	<body>
+		<div id="registro">
+			<div class="container">
+				<label for="nombre-evento"><b> Nombre del evento </b></label>
+				<input type="text" placeholder="Nombre del evento" id="nombre-evento" required>
+		
+				<label for="tipo-de-evento"><b> Tipo </b></label>
+				<select id="tipo-de-evento">
+					<option selected> Seleccione el tipo de evento
+					<option > Tarea
+					<option > Examen
+					<option > Recordatorio
+				</select>
+		
+				<label for="fecha-limite"><b> Fecha límite </b></label>
+				<input type="date" alt="Seleccione la fecha límite" id="fecha" step="1" min="2021-06-01" max="2025-12-31" value="2021-06-01">
+
+				<button onclick="setDatos()"> Nuevo evento </button>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+
+
+		<script>
+			var firebaseConfig = {
+				apiKey: "AIzaSyB8O2RMI-ymJg9VxT_PUeAwaVKBLSPXv5M",
+				authDomain: "proyecto-organizador-ull.firebaseapp.com",
+				projectId: "proyecto-organizador-ull",
+				storageBucket: "proyecto-organizador-ull.appspot.com",
+				messagingSenderId: "395408044554",
+				appId: "1:395408044554:web:85de18510414589d5665f3",
+				measurementId: "G-YWCGNTN844",
+				databaseURL: "https://proyecto-organizador-ull-default-rtdb.europe-west1.firebasedatabase.app/"
+			};
+
+			firebase.initializeApp(firebaseConfig);
+			const auth = firebase.auth();
+		</script>
+
+		<script src="./js/main.js"></script>
+	</body>
+
+</html>
