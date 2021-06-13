@@ -5,16 +5,33 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bd-style.css">
-		<title>Firebase Auth Example</title>
+		<script src="./js/bd.js"></script>
+		<title>ULLGANIZATE - Añadir evento</title>
 	</head>
 
 	<body>
     <div id="page-title">
       <p id="titulo">ULLGANIZATE</p>
+			<input type="search" placeholder="Buscar" id="buscador"/>
     </div>
     <main>
       <div id="datos">
-
+				<div class="container-data">
+					<div class="event-title">
+						<p id="data-title">Vista previa del evento</p>
+					</div>
+				</div>
+				<div id="mostrado-final">
+					<div class="mostrado-final">
+						<p class="texto-final">Nombre del evento: </p>
+						<p id="nombreF"></p>
+						<p class="texto-final">Tipo de evento: </p>
+						<p id="tipoF"></p>
+						<p class="texto-final">Fecha del evento: </p>
+						<p id="fechaF"></p>
+					</div>
+					<button id="boton-datos" onclick="insertar()"> Confirmar </button>
+				</div>
       </div>
       <div id="registro">
         <div class="container">
@@ -34,10 +51,14 @@
             <input type="date" alt="Seleccione la fecha límite" id="fecha" step="1" min="2021-06-01" max="2025-12-31" value="2021-06-01">
           </form>
 
-            <button onclick="insertar()"> Nuevo evento </button>
+            <button id="boton-evento" onclick="añadir()"> Añadir </button>
         </div>
       </div>
     </main>
+		<div id="separador"></div>
+		<footer>
+			&copy; Universidad de La Laguna - 2021
+		</footer>
 
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
