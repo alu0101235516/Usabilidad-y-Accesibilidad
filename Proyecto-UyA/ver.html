@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title> ULL Ganizate </title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <link rel="stylesheet" href="./css/estiloUllGanizate.css">
+      <script src="./js/bd.js"></script>
+    </head>
+
+    <body>
+      <div id="page-title">
+        <p id="titulo" onclick="redirect()">ULL GANIZATE</p>
+      </div>
+        <div class="container" >
+            <div class="row">
+              <div class="col s12">   
+                  <h5 class="center-align" tabindex="0"><b> EVENTOS PENDIENTES </b></h5>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="center-align" class="row" id="botonMostrar" tabindex="0">
+                <div class="col s1">
+                    <a class="purple darken-2 btn-large" onclick="getDatos()" id="botonMostrar"> Mostrar eventos</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div id="informacion" class="center-align"></div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+
+        <script>
+			var firebaseConfig = {
+				apiKey: "AIzaSyB8O2RMI-ymJg9VxT_PUeAwaVKBLSPXv5M",
+				authDomain: "proyecto-organizador-ull.firebaseapp.com",
+				projectId: "proyecto-organizador-ull",
+				storageBucket: "proyecto-organizador-ull.appspot.com",
+				messagingSenderId: "395408044554",
+				appId: "1:395408044554:web:85de18510414589d5665f3",
+				measurementId: "G-YWCGNTN844",
+				databaseURL: "https://proyecto-organizador-ull-default-rtdb.europe-west1.firebasedatabase.app/"
+			};
+
+			firebase.initializeApp(firebaseConfig);
+			const auth = firebase.auth();
+
+		</script>
+
+		<script src="./js/main.js"></script>
+    </body>
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text"> Información de contacto </h5>
+              <p class="grey-text text-lighten-4"> Contacta con nosotros a través de alguno de estos correos:</p>
+              <p class="grey-text text-lighten-4"> <b>Borja Guanche:</b>  alu0101205908@ull.edu.es</p>
+              <p class="grey-text text-lighten-4"> <b>Adrián Hernández:</b>  alu0101235516@ull.edu.es</p>
+              <p class="grey-text text-lighten-4"> <b>Alberto Ríos:</b>  alu0101235929@ull.edu.es</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="./accesibilidad.html">Accesibilidad</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.ull.es/">Universidad de La Laguna</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 MIT License
+          </div>
+        </div>
+    </footer>
+  </html>
