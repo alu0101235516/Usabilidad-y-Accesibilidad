@@ -82,6 +82,14 @@ body {
   font-size: 37px;
   font-family: 'DM Sans';
   color: rgb(255, 244, 243);
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+.title-princ:hover {
+  color: #f1d1ff;
+  font-size: 37.5px;
+  transition: ease-out color 0.2s;
+  transition: ease-out 0.2s;
 }
 
 #eslogan1,#eslogan11,#eslogan22, #eslogan2, #eslogan-text {

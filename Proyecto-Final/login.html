@@ -20,6 +20,9 @@
       function RedirectGH() {
         location.href = "https://github.com/alu0101235516/Usabilidad-y-Accesibilidad";
       }
+      function redirectHome() {
+        location.href = "./index.html";
+      }
     </script>
   </head>
 
@@ -27,7 +30,7 @@
     <main>
       <div class="background">
         <div class="title-page">
-          <h2 class="title-princ">ULL GANIZATE</h2>
+          <h2 class="title-princ" onclick="redirectHome()">ULL GANIZATE</h2>
           <p id="eslogan-text"><b>Ullganizate es una aplicación destinada a la organización y gestión de tu tiempo, aqui podrás acceder a tu calendario, ver tus últimas actividades o incluso añadir tareas. Descúbrelo!</b></p>
           <center>
             <img class="image" src="./images/signo-de-github.png" width="50px" height="50px" onclick="RedirectGH()"/>
