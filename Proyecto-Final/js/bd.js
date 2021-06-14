@@ -11,6 +11,9 @@ function añadir() {
   var salidaTipo;
   var salidaFecha;
 
+  document.getElementById("mostrado-final").style.display = "block";
+  document.getElementById("place").style.display = "none";
+
   salidaNombre = nombre;
   document.getElementById("nombreF").innerHTML = salidaNombre;
   salidaTipo = tipo;
@@ -21,4 +24,19 @@ function añadir() {
   console.log(nombre);
   console.log(tipo);
   console.log(fecha);
+}
+
+function redirect() {
+  location.href = "./index.html"
+}
+
+function change() {
+  document.getElementById("datos").style.display = "block";
+  document.getElementById("datos").style.margin = "auto";
+  document.getElementById("boton-datos").style.width = "30%";
+  document.getElementById("boton-datos").style.marginLeft = "35%";
+  document.getElementById("datos").style.width = "70%";
+  document.getElementById("mostrado-final").style.display = "block";
+  document.getElementById("place").style.display = "none";
+  document.getElementById("registro").style.display = "none";
 }
